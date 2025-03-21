@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h2>PING<span>.</span></h2>
+    <h1>We are launching <span>soon!</span></h1>
+    <h3>Subscribe and get notified</h3>
+    <div class="forButton">
+      <form>
+        <div>
+          <input type="text" placeholder="Your email address" id="input" >
+          <p id="ErrorMessage" style="display:none">
+          </p>
+        </div>
+        <button onclick="check()" type="button">Notify me</button>
+      </form>
+    </div>
+    <img src="./images/illustration-dashboard.png" alt="">
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ana</a>.
+    </p>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
