@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap');
+
+body{
+    height:100vh;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(29, 53%, 90%)
+}
+.card{
+    width:70%;
+    min-width:290px;
+    max-width:580px;
+    background-color: white;
+    padding:30px;
+}
+img{
+    width:100%
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight:500;
+    color:hsl(24, 5%, 18%)
+}
+p{
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    color:hsl(30, 10%, 34%)
+}
